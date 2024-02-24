@@ -1,0 +1,66 @@
+body{
+   background-color: azure;
+   
+}
+img{
+    border-radius: 50%;
+    width: 100px;
+}
+.red{
+    display: flex;
+    justify-content: space-around;
+}
+h2{
+    margin-left: 100px;
+} 
+button{
+    margin-left: 10%;
+   width: 30%;
+   cursor: pointer;   
+}
+.black{
+    margin-left: 10%; 
+    display:flex;
+    justify-content:space-between;
+}
+.black h4{
+    color: aqua;
+}
+.box{
+    border: 1px solid lightslategray;
+    align-items: center;
+    width: 200px;
+    padding: 5px 5px 5px 5px;
+    position: relative;
+    border-radius: 10px;
+    margin-left: 5px;
+}     
+ .box p{
+    text-align: center;
+ }
+.C-button{
+   background-color: transparent;
+   border: 0;
+   font-size: 30px;
+   cursor: pointer;
+   position: absolute;
+   right: 0;
+   border-radius: 50%;
+}
+.C-button:hover{
+    opacity: 0.8;
+    background-color: lightgray;
+}
+.F-button{
+  width:  100px;
+  background-color: blue;
+  color: white;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.boxx{
+    display: flex;
+    justify-content: first baseline;
+    
+}
